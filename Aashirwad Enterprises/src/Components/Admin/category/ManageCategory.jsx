@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 
 import Swal from 'sweetalert2'
-import CategoryService from "../../../services/CategoryService";
+import CategoryService from "../../../Services/CategoryService";
 import { PacmanLoader } from "react-spinners";
 // About page component
 export default function ManageCategory() {

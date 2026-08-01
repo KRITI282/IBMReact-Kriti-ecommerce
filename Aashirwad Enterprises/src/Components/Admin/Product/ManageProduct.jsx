@@ -1,12 +1,12 @@
 import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import { PacmanLoader } from "react-spinners";
-import CategoryService from "../../../services/CategoryService"
+import CategoryService from "../../../Services/CategoryService"
 import Swal from 'sweetalert2'
 import Modal from 'react-modal';
 import { toast } from "react-toastify";
-import CloudinaryService from "../../../services/CloudinaryService";
-import ProductService from "../../../services/ProductService";
+import CloudinaryService from "../../../Services/CloudinaryService";
+import ProductService from "../../../Services/ProductService";
 // About page component
 export default function ManageProduct() {
 
