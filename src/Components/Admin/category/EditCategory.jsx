@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react"
-import CategoryService from "../../../services/CategoryService"
+import CategoryService from "../../../Services/CategoryService"
 import { PacmanLoader } from "react-spinners";
 import { toast } from "react-toastify";
 import { useNavigate, useParams } from "react-router-dom";
